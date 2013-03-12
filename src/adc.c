@@ -34,6 +34,8 @@ volatile uint32_t ADCIntDone = 0;
 volatile uint32_t BurstCounter = 0;
 volatile uint32_t OverRunCounter = 0;
 
+rich added this
+
 #if BURST_MODE
 volatile uint32_t channel_flag = 0; 
 #endif
