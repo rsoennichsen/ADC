@@ -1,3 +1,7 @@
+/*
+ * Rich is here
+ */
+
 /****************************************************************************
  *   $Id:: adc.c 6089 2011-01-06 04:38:09Z nxp12832                         $
  *   Project: NXP LPC17xx ADC example
@@ -31,8 +35,6 @@ volatile uint32_t ADCValue[ADC_NUM];
 volatile uint32_t ADCIntDone = 0;
 volatile uint32_t BurstCounter = 0;
 volatile uint32_t OverRunCounter = 0;
-
-rich added this
 
 #if BURST_MODE
 volatile uint32_t channel_flag = 0; 
